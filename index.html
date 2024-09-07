@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CENTRAL DEV | Sua ferramenta de busca!</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo" width="400" height="60">
+        <br><br>
+    </header>
+    <main>
+        <section>
+            <p><b>Central DEV</b> é uma ferramenta de busca que te ajuda a encontrar diferentes linguagens de programação em um só lugar. Ao pesquisar a linguagem desejada, você poderá encontrar informações e analisar se essa é a linguagem que você procura para o seu projeto no momento. <b>Experimente!</b></p>
+            <br><br>
+            <input type="text" placeholder="Exemplo: Java, C#, HTML..." id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Todos os direitos reservados</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
